@@ -1,6 +1,7 @@
 package pl.droidsonroids.hodor;
 
 import android.app.Application;
+
 import pl.droidsonroids.hodor.retrofit.RestAdapter;
 import pl.droidsonroids.hodor.util.DatabaseHelper;
 
@@ -17,7 +18,7 @@ public class HodorApplication extends Application {
         super.onCreate();
         sInstance = this;
 
-        mHodorPreferences = new HodorPreferences();
+        mHodorPreferences = new HodorPreferences(this);
         mRestAdapter = new RestAdapter();
         mDatabaseHelper = new DatabaseHelper();
     }

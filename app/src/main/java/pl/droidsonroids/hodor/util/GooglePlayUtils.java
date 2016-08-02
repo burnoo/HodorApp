@@ -1,6 +1,7 @@
 package pl.droidsonroids.hodor.util;
 
 import android.app.Activity;
+
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 

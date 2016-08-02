@@ -37,7 +37,7 @@ public class RestAdapter {
     }
 
     public interface RestApi {
-        @Headers("Authorization: key=AIzaSyCUvwOCIClx7GsDPTfDBiCgSXmHz6BDslc")
+        @Headers("Authorization: key=AIzaSyDfxP0GzJCYZHet1tIifkpacUeZvi72I2g")
         @POST("send")
         Call<Void> sendPush(@Body FCMMessage message);
     }

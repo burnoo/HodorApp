@@ -6,7 +6,7 @@
     <string name="login_dialog_title">Login</string>
     <string name="login_dialog_msg">Login in progress…</string>
     <string name="notification_title">HODOR</string>
-    <string name="notification_msg">"You've got HODORed by %s !"</string>
+    <string name="notification_msg">"You've got HODORed by %s!"</string>
     <string name="add_friend_dialog_title">Add user</string>
     <string name="add_friend_dialog_positive">Add</string>
     <string name="add_friend_dialog_negative">Cancel</string>
@@ -14,4 +14,7 @@
     <string name="send_notification_msg">Do you want to send notification to %s?</string>
     <string name="send">Send</string>
     <string name="send_hodor_back">Send Hodor Back</string>
+
+    <string name="type_login">Type login:</string>
+    <string name="login">Login</string>
 </resources>

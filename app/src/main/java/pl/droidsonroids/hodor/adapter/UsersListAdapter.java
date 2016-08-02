@@ -1,10 +1,13 @@
 package pl.droidsonroids.hodor.adapter;
 
+import android.graphics.drawable.StateListDrawable;
 import android.support.annotation.ColorRes;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
+
 import java.util.List;
+
 import pl.droidsonroids.hodor.R;
 import pl.droidsonroids.hodor.util.DatabaseHelper;
 
